@@ -1,0 +1,448 @@
+Microsoft Windows [Version 10.0.22631.5039]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user\Desktop\test\ecom>php artisan migrate
+
+   WARN  The database 'ecom' does not exist on the 'mysql' connection.
+
+  Would you like to create it? (yes/no) [yes]
+❯ yes
+
+   INFO  Preparing database.
+
+  Creating migration table .............................................................................. 22.47ms DONE
+
+   INFO  Running migrations.
+
+  0001_01_01_000000_create_users_table ................................................................. 110.80ms DONE
+  0001_01_01_000001_create_cache_table .................................................................. 16.73ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................... 77.33ms DONE
+
+
+C:\Users\user\Desktop\test\ecom>composer require laravel/breeze --dev
+./composer.json has been updated
+Running composer update laravel/breeze
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking laravel/breeze (v2.3.6)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing laravel/breeze (v2.3.6): Extracting archive
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/breeze ............................................................................................................. DONE
+  laravel/pail ............................................................................................................... DONE
+  laravel/sail ............................................................................................................... DONE
+  laravel/tinker ............................................................................................................. DONE
+  nesbot/carbon .............................................................................................................. DONE
+  nunomaduro/collision ....................................................................................................... DONE
+  nunomaduro/termwind ........................................................................................................ DONE
+
+80 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^2.3 for laravel/breeze
+
+C:\Users\user\Desktop\test\ecom>php artisan breeze:install
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯
+
+
+
+ [ERROR] Value "" is invalid
+
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯ php artisan migrate
+
+
+
+ [ERROR] Value "php artisan migrate" is invalid
+
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯ npm install
+
+
+
+ [ERROR] Value "npm install" is invalid
+
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯ npm run dev
+
+
+
+ [ERROR] Value "npm run dev" is invalid
+
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯
+
+
+
+ [ERROR] Value "" is invalid
+
+
+  Which Breeze stack would you like to install?
+  Blade with Alpine ......................................................................................................... blade
+  Livewire (Volt Class API) with Alpine .................................................................................. livewire
+  Livewire (Volt Functional API) with Alpine .................................................................. livewire-functional
+  React with Inertia ........................................................................................................ react
+  Vue with Inertia ............................................................................................................ vue
+  API only .................................................................................................................... api
+❯ blade
+
+  Would you like dark mode support? (yes/no) [no]
+❯ no
+
+  Which testing framework do you prefer? [Pest]
+  Pest .......................................................................................................................... 0
+  PHPUnit ....................................................................................................................... 1
+❯ 0
+
+./composer.json has been updated
+Running composer update phpunit/phpunit
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 0 installs, 0 updates, 26 removals
+  - Removing myclabs/deep-copy (1.13.0)
+  - Removing phar-io/manifest (2.0.4)
+  - Removing phar-io/version (3.2.1)
+  - Removing phpunit/php-code-coverage (11.0.9)
+  - Removing phpunit/php-file-iterator (5.1.0)
+  - Removing phpunit/php-invoker (5.0.1)
+  - Removing phpunit/php-text-template (4.0.1)
+  - Removing phpunit/php-timer (7.0.1)
+  - Removing phpunit/phpunit (11.5.17)
+  - Removing sebastian/cli-parser (3.0.2)
+  - Removing sebastian/code-unit (3.0.3)
+  - Removing sebastian/code-unit-reverse-lookup (4.0.1)
+  - Removing sebastian/comparator (6.3.1)
+  - Removing sebastian/complexity (4.0.1)
+  - Removing sebastian/diff (6.0.2)
+  - Removing sebastian/environment (7.2.0)
+  - Removing sebastian/exporter (6.3.0)
+  - Removing sebastian/global-state (7.0.2)
+  - Removing sebastian/lines-of-code (3.0.1)
+  - Removing sebastian/object-enumerator (6.0.1)
+  - Removing sebastian/object-reflector (4.0.1)
+  - Removing sebastian/recursion-context (6.0.2)
+  - Removing sebastian/type (5.1.2)
+  - Removing sebastian/version (5.0.2)
+  - Removing staabm/side-effects-detector (1.0.5)
+  - Removing theseer/tokenizer (1.2.3)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 0 installs, 0 updates, 26 removals
+  - Removing theseer/tokenizer (1.2.3)
+  - Removing staabm/side-effects-detector (1.0.5)
+  - Removing sebastian/version (5.0.2)
+  - Removing sebastian/type (5.1.2)
+  - Removing sebastian/recursion-context (6.0.2)
+  - Removing sebastian/object-reflector (4.0.1)
+  - Removing sebastian/object-enumerator (6.0.1)
+  - Removing sebastian/lines-of-code (3.0.1)
+  - Removing sebastian/global-state (7.0.2)
+  - Removing sebastian/exporter (6.3.0)
+  - Removing sebastian/environment (7.2.0)
+  - Removing sebastian/diff (6.0.2)
+  - Removing sebastian/complexity (4.0.1)
+  - Removing sebastian/comparator (6.3.1)
+  - Removing sebastian/code-unit-reverse-lookup (4.0.1)
+  - Removing sebastian/code-unit (3.0.3)
+  - Removing sebastian/cli-parser (3.0.2)
+  - Removing phpunit/phpunit (11.5.17)
+  - Removing phpunit/php-timer (7.0.1)
+  - Removing phpunit/php-text-template (4.0.1)
+  - Removing phpunit/php-invoker (5.0.1)
+  - Removing phpunit/php-file-iterator (5.1.0)
+  - Removing phpunit/php-code-coverage (11.0.9)
+  - Removing phar-io/version (3.2.1)
+  - Removing phar-io/manifest (2.0.4)
+  - Removing myclabs/deep-copy (1.13.0)
+  0/16 [>---------------------------]   0%
+ 10/16 [=================>----------]  62%
+ 16/16 [============================] 100%
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/breeze ............................................................................................................. DONE
+  laravel/pail ............................................................................................................... DONE
+  laravel/sail ............................................................................................................... DONE
+  laravel/tinker ............................................................................................................. DONE
+  nesbot/carbon .............................................................................................................. DONE
+  nunomaduro/collision ....................................................................................................... DONE
+  nunomaduro/termwind ........................................................................................................ DONE
+
+55 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+./composer.json has been updated
+Running composer update pestphp/pest pestphp/pest-plugin-laravel
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 40 installs, 0 updates, 0 removals
+  - Locking brianium/paratest (v7.8.3)
+  - Locking doctrine/deprecations (1.1.5)
+  - Locking fidry/cpu-core-counter (1.2.0)
+  - Locking jean85/pretty-package-versions (2.1.1)
+  - Locking myclabs/deep-copy (1.13.0)
+  - Locking pestphp/pest (v3.8.1)
+  - Locking pestphp/pest-plugin (v3.0.0)
+  - Locking pestphp/pest-plugin-arch (v3.1.0)
+  - Locking pestphp/pest-plugin-laravel (v3.1.0)
+  - Locking pestphp/pest-plugin-mutate (v3.0.5)
+  - Locking phar-io/manifest (2.0.4)
+  - Locking phar-io/version (3.2.1)
+  - Locking phpdocumentor/reflection-common (2.2.0)
+  - Locking phpdocumentor/reflection-docblock (5.6.1)
+  - Locking phpdocumentor/type-resolver (1.10.0)
+  - Locking phpstan/phpdoc-parser (2.1.0)
+  - Locking phpunit/php-code-coverage (11.0.9)
+  - Locking phpunit/php-file-iterator (5.1.0)
+  - Locking phpunit/php-invoker (5.0.1)
+  - Locking phpunit/php-text-template (4.0.1)
+  - Locking phpunit/php-timer (7.0.1)
+  - Locking phpunit/phpunit (11.5.15)
+  - Locking sebastian/cli-parser (3.0.2)
+  - Locking sebastian/code-unit (3.0.3)
+  - Locking sebastian/code-unit-reverse-lookup (4.0.1)
+  - Locking sebastian/comparator (6.3.1)
+  - Locking sebastian/complexity (4.0.1)
+  - Locking sebastian/diff (6.0.2)
+  - Locking sebastian/environment (7.2.0)
+  - Locking sebastian/exporter (6.3.0)
+  - Locking sebastian/global-state (7.0.2)
+  - Locking sebastian/lines-of-code (3.0.1)
+  - Locking sebastian/object-enumerator (6.0.1)
+  - Locking sebastian/object-reflector (4.0.1)
+  - Locking sebastian/recursion-context (6.0.2)
+  - Locking sebastian/type (5.1.2)
+  - Locking sebastian/version (5.0.2)
+  - Locking staabm/side-effects-detector (1.0.5)
+  - Locking ta-tikoma/phpunit-architecture-test (0.8.4)
+  - Locking theseer/tokenizer (1.2.3)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 40 installs, 0 updates, 0 removals
+  - Downloading pestphp/pest-plugin (v3.0.0)
+  - Downloading jean85/pretty-package-versions (2.1.1)
+  - Downloading fidry/cpu-core-counter (1.2.0)
+  - Downloading brianium/paratest (v7.8.3)
+  - Downloading doctrine/deprecations (1.1.5)
+  - Downloading ta-tikoma/phpunit-architecture-test (0.8.4)
+  - Downloading pestphp/pest-plugin-arch (v3.1.0)
+  - Downloading pestphp/pest-plugin-mutate (v3.0.5)
+  - Downloading pestphp/pest (v3.8.1)
+  - Downloading pestphp/pest-plugin-laravel (v3.1.0)
+  0/10 [>---------------------------]   0%
+  1/10 [==>-------------------------]  10%
+  2/10 [=====>----------------------]  20%
+  4/10 [===========>----------------]  40%
+  5/10 [==============>-------------]  50%
+  6/10 [================>-----------]  60%
+  7/10 [===================>--------]  70%
+  8/10 [======================>-----]  80%
+ 10/10 [============================] 100%
+  - Installing pestphp/pest-plugin (v3.0.0): Extracting archive
+  - Installing sebastian/environment (7.2.0): Extracting archive
+  - Installing staabm/side-effects-detector (1.0.5): Extracting archive
+  - Installing sebastian/version (5.0.2): Extracting archive
+  - Installing sebastian/type (5.1.2): Extracting archive
+  - Installing sebastian/recursion-context (6.0.2): Extracting archive
+  - Installing sebastian/object-reflector (4.0.1): Extracting archive
+  - Installing sebastian/object-enumerator (6.0.1): Extracting archive
+  - Installing sebastian/global-state (7.0.2): Extracting archive
+  - Installing sebastian/exporter (6.3.0): Extracting archive
+  - Installing sebastian/diff (6.0.2): Extracting archive
+  - Installing sebastian/comparator (6.3.1): Extracting archive
+  - Installing sebastian/code-unit (3.0.3): Extracting archive
+  - Installing sebastian/cli-parser (3.0.2): Extracting archive
+  - Installing phpunit/php-timer (7.0.1): Extracting archive
+  - Installing phpunit/php-text-template (4.0.1): Extracting archive
+  - Installing phpunit/php-invoker (5.0.1): Extracting archive
+  - Installing phpunit/php-file-iterator (5.1.0): Extracting archive
+  - Installing theseer/tokenizer (1.2.3): Extracting archive
+  - Installing sebastian/lines-of-code (3.0.1): Extracting archive
+  - Installing sebastian/complexity (4.0.1): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (4.0.1): Extracting archive
+  - Installing phpunit/php-code-coverage (11.0.9): Extracting archive
+  - Installing phar-io/version (3.2.1): Extracting archive
+  - Installing phar-io/manifest (2.0.4): Extracting archive
+  - Installing myclabs/deep-copy (1.13.0): Extracting archive
+  - Installing phpunit/phpunit (11.5.15): Extracting archive
+  - Installing jean85/pretty-package-versions (2.1.1): Extracting archive
+  - Installing fidry/cpu-core-counter (1.2.0): Extracting archive
+  - Installing brianium/paratest (v7.8.3): Extracting archive
+  - Installing phpstan/phpdoc-parser (2.1.0): Extracting archive
+  - Installing phpdocumentor/reflection-common (2.2.0): Extracting archive
+  - Installing doctrine/deprecations (1.1.5): Extracting archive
+  - Installing phpdocumentor/type-resolver (1.10.0): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (5.6.1): Extracting archive
+  - Installing ta-tikoma/phpunit-architecture-test (0.8.4): Extracting archive
+  - Installing pestphp/pest-plugin-arch (v3.1.0): Extracting archive
+  - Installing pestphp/pest-plugin-mutate (v3.0.5): Extracting archive
+  - Installing pestphp/pest (v3.8.1): Extracting archive
+  - Installing pestphp/pest-plugin-laravel (v3.1.0): Extracting archive
+  0/39 [>---------------------------]   0%
+ 10/39 [=======>--------------------]  25%
+ 20/39 [==============>-------------]  51%
+ 26/39 [==================>---------]  66%
+ 29/39 [====================>-------]  74%
+ 35/39 [=========================>--]  89%
+ 37/39 [==========================>-]  94%
+ 39/39 [============================] 100%
+5 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.
+
+  laravel/breeze ............................................................................................................. DONE
+  laravel/pail ............................................................................................................... DONE
+  laravel/sail ............................................................................................................... DONE
+  laravel/tinker ............................................................................................................. DONE
+  nesbot/carbon .............................................................................................................. DONE
+  nunomaduro/collision ....................................................................................................... DONE
+  nunomaduro/termwind ........................................................................................................ DONE
+  pestphp/pest-plugin-laravel ................................................................................................ DONE
+
+87 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].
+
+No security vulnerability advisories found.
+Using version ^3.8 for pestphp/pest
+Using version ^3.1 for pestphp/pest-plugin-laravel
+   INFO  Installing and building Node dependencies.
+
+
+added 193 packages, and audited 194 packages in 47s
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> build
+> vite build
+
+    vite v6.2.5 building for production...
+    transforming...
+    ✓ 54 modules transformed.
+    rendering chunks...
+computing gzip size...
+public/build/manifest.json             0.27 kB │ gzip:  0.15 kB
+public/build/assets/app-CVatbMnu.css  39.82 kB │ gzip:  7.45 kB
+public/build/assets/app-Bo-u61x1.js   79.58 kB │ gzip: 29.63 kB
+✓ built in 2.76s
+
+
+   INFO  Breeze scaffolding installed successfully.
+
+
+C:\Users\user\Desktop\test\ecom>php artisan migrate
+
+   INFO  Preparing database.
+
+  Creating migration table ........................................................................................... 32.47ms DONE
+
+   INFO  Running migrations.
+
+  0001_01_01_000000_create_users_table ............................................................................... 89.34ms DONE
+  0001_01_01_000001_create_cache_table ............................................................................... 21.77ms DONE
+  0001_01_01_000002_create_jobs_table ................................................................................ 81.22ms DONE
+
+
+C:\Users\user\Desktop\test\ecom>npm install
+
+up to date, audited 194 packages in 2s
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\user\Desktop\test\ecom>npm rub build
+Unknown command: "rub"
+
+To see a list of supported npm commands, run:
+  npm help
+
+C:\Users\user\Desktop\test\ecom>npm run build
+
+> build
+> vite build
+
+vite v6.2.5 building for production...
+✓ 54 modules transformed.
+public/build/manifest.json             0.27 kB │ gzip:  0.15 kB
+public/build/assets/app-CVatbMnu.css  39.82 kB │ gzip:  7.45 kB
+public/build/assets/app-Bo-u61x1.js   79.58 kB │ gzip: 29.63 kB
+✓ built in 2.24s
+
+C:\Users\user\Desktop\test\ecom>php artisan make:controller HomeController
+
+   INFO  Controller [C:\Users\user\Desktop\test\ecom\app\Http\Controllers\HomeController.php] created successfully.
+
+
+C:\Users\user\Desktop\test\ecom>php artisan make:middleware
+^C
+C:\Users\user\Desktop\test\ecom>php artisan make:middleware admin
+
+   INFO  Middleware [C:\Users\user\Desktop\test\ecom\app\Http\Middleware\admin.php] created successfully.
+
+
+C:\Users\user\Desktop\test\ecom>

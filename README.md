@@ -4,6 +4,11 @@ Ikaze shop is Laravel based e-comerce platform for buying famous product
     SHYAKA Aimable     22RP02259
     NIYONKURU Emmanuel 22RP03844
 
+Credentials for login 
+
+    on user : register an account by click on register menu
+    as an admin use : admin@gmail.com and use password :12345678
+
 Laravel E-Commerce Checkout System
 Project Overview
 This Laravel-based e-commerce checkout system provides a complete solution for handling customer orders, including cart management, checkout processing, and order receipt generation.
